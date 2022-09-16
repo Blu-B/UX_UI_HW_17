@@ -1,17 +1,29 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    text-align: end;
+    justify-content: space-between;
 
 }
 
-header{
+header {
     background-color: #262626;
+    width: 100%;
     height: 80px;
 }
 
-.logo img {
-    width: 23%;
-    padding: 1%;
+.logo {
+    
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 202px;
+    top: 25px;
 
     /*LOGO POSITION
     Width: 168px;
@@ -21,7 +33,11 @@ header{
 }
 
 nav {
-    width: 73%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 95%;
     padding: 1%;
 }
 ul {
@@ -125,8 +141,11 @@ button {
 }
 footer {
     background-color: #262626;
+    width: 100%;
+    height: 235px;
+    align-items: center;
+    justify-content: center;
 }
 footer ul {
     display: inline-block;
-    vertical-align: top;
 }
