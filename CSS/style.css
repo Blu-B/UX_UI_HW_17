@@ -31,7 +31,6 @@ li {
 
 
     filter: drop-shadow(0px 4px 4px rgba(255, 225, 118, 0.34));
-b   order-radius: 7px;
 
 
     font-family: 'Roboto';
@@ -51,7 +50,6 @@ b   order-radius: 7px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .heroImg {
@@ -59,9 +57,25 @@ b   order-radius: 7px;
     padding: 25px;
     background-color: #262626;
 }
+
+h1 {
+    color: #00B0FC;
+    width: 524px;
+    height: 141px;
+    left: 100px;
+    top: 363px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 141px;
+}
+
 .content {
     width: 500px;
     margin: 0 auto;
+    font-size: 32px;
     
 }
 
